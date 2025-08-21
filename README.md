@@ -29,7 +29,7 @@ Este repositorio contiene guías, scripts y configuraciones para desplegar una r
 git clone https://github.com/sigint/secure-home-network.git
 cd secure-home-network/scripts
 sudo ./setup-wireguard.sh
-
+```
 ## 📜 Licencia
 
 Este proyecto está bajo la licencia MIT. Consulta el archivo `LICENSE` para más detalles.
