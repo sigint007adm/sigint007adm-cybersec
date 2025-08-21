@@ -1,20 +1,34 @@
-# secure-home-network
+# 🛡️ Secure Home Network
 
-Guía práctica para proteger redes domésticas con herramientas de código abierto y configuraciones probadas. Este repositorio incluye documentación técnica, scripts automatizados y esquemas de arquitectura para implementar una red segura y eficiente.
+Este repositorio contiene guías, scripts y configuraciones para desplegar una red doméstica segura utilizando herramientas como WireGuard, UFW, Pi-hole y segmentación de red.
 
-## 🛠 Herramientas utilizadas
+## 🚀 Objetivos
 
-- **Pi-hole**: Bloqueo de publicidad y rastreadores a nivel DNS
-- **WireGuard**: VPN ligera y segura
-- **Firewall**: Reglas básicas para proteger el tráfico entrante/saliente
-- **Hardening**: Buenas prácticas para reforzar la seguridad de dispositivos y servicios
+- Proteger dispositivos domésticos frente a amenazas externas
+- Acceso remoto seguro mediante VPN
+- Bloqueo de rastreadores y publicidad
+- Segmentación de red por VLANs
 
-## 📁 Estructura
+## 📂 Contenido
 
-- `docs/`: Documentación técnica detallada
-- `configs/`: Archivos de configuración listos para usar
-- `scripts/`: Instaladores y automatización
+- `docs/`: Documentación técnica
+- `scripts/`: Scripts automatizados
 - `assets/`: Diagramas y recursos visuales
+
+## 🧰 Tecnologías
+
+- WireGuard
+- UFW / iptables
+- Raspberry Pi OS
+- Pi-hole
+- OPNsense (opcional)
+
+## 🧪 Instalación rápida
+
+```bash
+git clone https://github.com/sigint/secure-home-network.git
+cd secure-home-network/scripts
+sudo ./setup-wireguard.sh
 
 ## 📜 Licencia
 
