@@ -1,35 +1,34 @@
-# 🛡️ Secure Home Network
+# 🔐 sigint007adm-cybersec  
 
-Este repositorio contiene guías, scripts y configuraciones para desplegar una red doméstica segura utilizando herramientas como WireGuard, UFW, Pi-hole y segmentación de red.
+**Repositorio de Ciberseguridad | Hardening · Privacidad · Blue Team & Red Team**  
 
-## 🚀 Objetivos
+Este repositorio recopila **scripts, módulos y guías prácticas** de ciberseguridad para que cualquier usuario, técnico o pequeño negocio pueda **endurecer, monitorizar y proteger** sus sistemas.  
 
-- Proteger dispositivos domésticos frente a amenazas externas
-- Acceso remoto seguro mediante VPN
-- Bloqueo de rastreadores y publicidad
-- Segmentación de red por VLANs
+---
 
-## 📂 Contenido
+## 📂 Contenido  
 
-- `docs/`: Documentación técnica
-- `scripts/`: Scripts automatizados
-- `assets/`: Diagramas y recursos visuales
+- 🛡️ **Hardening**
+  - Windows 10/11 → scripts de configuración segura, políticas, deshabilitación de servicios innecesarios.
+  - Linux → ajustes de kernel, firewall, servicios mínimos.  
 
-## 🧰 Tecnologías
+- 🎯 **Red Team**
+  - Scripts básicos de reconocimiento, pruebas de fuerza bruta controladas, auditorías de puertos.  
 
-- WireGuard
-- UFW / iptables
-- Raspberry Pi OS
-- Pi-hole
-- OPNsense (opcional)
+- 🛡️ **Blue Team**
+  - Reglas de firewall listas para aplicar.
+  - Detección de procesos sospechosos y logs clave.  
 
-## 🧪 Instalación rápida
+- 🕵️ **Privacidad**
+  - Listas de bloqueo (hosts anti-tracking).
+  - Comprobadores de VPN/tor.  
 
-```bash
-git clone https://github.com/sigint/secure-home-network.git
-cd secure-home-network/scripts
-sudo ./setup-wireguard.sh
-```
-## 📜 Licencia
+---
 
-Este proyecto está bajo la licencia MIT. Consulta el archivo `LICENSE` para más detalles.
+## 🚀 Objetivo  
+Que cualquier persona pueda aplicar **seguridad práctica en minutos**, sin necesidad de ser experto en ciberseguridad.  
+
+---
+
+## 📬 Contacto  
+👉 Para sugerencias, mejoras o colaboraciones: [@sigint007adm](https://twitter.com/sigint007adm)  
