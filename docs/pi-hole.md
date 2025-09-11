@@ -43,7 +43,7 @@ http://<IP-de-tu-pi>/admin
 ## 👍 Buenas prácticas
 🔑 Cambia la contraseña del panel con:  
 ```bash
-pihole -a -p
+pihole -password <Tu contraseña>
 ```
 
 ♻️ Actualiza listas de bloqueo semanalmente:  
